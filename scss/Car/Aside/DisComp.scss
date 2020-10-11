@@ -1,0 +1,19 @@
+.comp_white {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 165px;
+  border: 2px solid #eee;
+  padding: 12px;
+  margin: 8px 0;
+  .comp_up {
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .comp_photo {
+      width: 75px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@media (min-width: 768px) {
+  .cars_page {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    .cars_side {
+      width: 30%;
+      min-height: 100%;
+      background-color: red;
+    }
+    .cars_center {
+      width: 70%;
+      min-height: 100%;
+    }
+  }
+}

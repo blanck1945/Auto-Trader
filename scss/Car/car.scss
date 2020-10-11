@@ -1,0 +1,9 @@
+.car_div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  .car_show {
+    display: flex;
+  }
+}

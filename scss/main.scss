@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  ._home {
+    background-color: #eee;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .fix {
+    flex-direction: row;
+  }
+}

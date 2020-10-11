@@ -1,0 +1,20 @@
+@import "../scss/variables";
+@media (min-width: 768px) {
+  .form {
+    width: 60%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: $shadowm;
+    border-radius: 5px;
+    margin: 25px auto;
+    padding: 20px;
+    align-content: center;
+    .form_row {
+      display: flex;
+      align-content: center;
+      justify-content: space-evenly;
+    }
+  }
+}

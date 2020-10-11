@@ -1,0 +1,35 @@
+.navigation {
+  background-color: rgba(32, 31, 31, 0.849);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(32, 31, 31, 0.849);
+  justify-content: space-evenly;
+  .navLink {
+    width: 80px;
+    text-decoration: none;
+    margin: 0 5px;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(32, 31, 31, 0.849);
+    width: 300px;
+    .navLink {
+      min-width: 33%;
+      text-decoration: none;
+      color: white;
+      margin: 0 5px;
+      font-size: 1.3rem;
+      padding: 5px 12px;
+      text-align: center;
+    }
+  }
+}
